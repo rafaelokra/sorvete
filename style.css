@@ -15,11 +15,14 @@
     font-family: 'Staatliches', cursive;*/
     
 }
+body{
+    background: #E5E5E5;
+}
 header img{
    margin: auto;
 }
 .page{
-    height: 1995px;
+   
     width: 384px;
     background: #EFF1FF;
     margin: auto;
@@ -44,18 +47,50 @@ p{
 img{
     margin: 32px;
 }
+.card{
+    position: relative;
+}
  h2{
    
     font-family: 'Staatliches', cursive;
     font-weight: 400;
     font-size: 20px;
     line-height: 34px;
+    text-align: center;
     text-transform: uppercase;
+
     background: #FEEAFA;
-    opacity: 0.48;
     border-radius: 20px;
     
+  
+}
+.card .one{ 
+    position: absolute;
+    left: 230px;
+    bottom: 230px;
+    width: 112px;
+   
+   
 
+    
+}
+.card .two{
+    position: absolute;
+    left: 230px;
+    bottom:430px;
+    width:112px;
+}
+.card .thre{
+    position: absolute;
+    left: 230px;
+    bottom:199px;
+    width:112px;
+}
+.card .for{
+    position: absolute;
+    left: 230px;
+    bottom:430px;
+    width:112px;
 }
  
 
