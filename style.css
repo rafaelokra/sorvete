@@ -18,9 +18,21 @@
 body{
     background: #E5E5E5;
 }
-header img{
+
+
+ header img{
    margin: auto;
 }
+.logo2{
+    display: none;
+}
+.logo3{
+    display: none;
+}
+.space{
+    display: none;
+}
+
 .page{
    
     width: 384px;
@@ -44,7 +56,10 @@ p{
     color: #23053A;
 
 }
-img{
+.lore2 {
+    display: none;
+}
+img {
     margin: 32px;
 }
 .card{
@@ -91,6 +106,72 @@ img{
     left: 230px;
     bottom:430px;
     width:112px;
+    
 }
+
+  @media (min-width:930px){
+   
+   .page{
+    background-image: url(img/Rectangle\ 10\ \(1\).png);
+    margin: 0;
+    width: 377px;
+    height: 720px;
+
+   }
+   .logo1{
+    display: none;
+   }
+   .logo2{
+    display: block;
+    padding-top: 32px;
+    left: 81px;
+   }
+   .logo3{
+    display: block;
+   }
+   .space{
+    width: 230px;
+    align-items: center;
+
+    display: block;
+    position: absolute;
+    top: 205px;
+    left:35px;
+
+    font-family: 'Staatliches';
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 34px;
+   }
+   .lore1{
+   display: none;
+
+   }
+   .lore2{
+    display: block;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+   }
+   .container{
+    
+    width: 1280px;
+   
+   }
+   .img1{
+    display: grid;
+    bottom: 800px;
+    left: 100px;
+   }
+   
+  }
+
+ 
+
+
  
 
