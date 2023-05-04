@@ -157,18 +157,26 @@ img {
     font-size: 24px;
     line-height: 20px;
    }
-   .container{
-    
-    width: 1280px;
-   
+   main.card{
+    grid-template-areas: "A B"
+     "C D";
    }
-   .img1{
-    display: grid;
-    bottom: 800px;
-    left: 100px;
+   main .container:nth-child(1){
+    grid-area: A;
    }
+   main .container:nth-child(2){
+    grid-area: B;
+   }
+   main .container:nth-child(3){
+    grid-area: C;
+   }
+   main .container:nth-child(4){
+    grid-area: D;
+   }
+
    
-  }
+ }
+  
 
  
 
