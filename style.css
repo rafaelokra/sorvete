@@ -122,6 +122,9 @@ img {
 .container{
     display: block;
    }
+   footer{
+    display: none;
+   }
   
 
   @media (min-width:930px){
@@ -250,9 +253,11 @@ img {
     top: 64px;
 }
 footer{
+
+    display: block;
     position: absolute;
     top: 646px;
-    left: 641px;
+    left: 710px;
 
     font-family: open sans;
  
@@ -261,6 +266,7 @@ footer{
     color: #4A4E69;
    
 }
+
 
 }
  
