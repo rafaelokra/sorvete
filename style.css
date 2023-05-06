@@ -23,6 +23,12 @@ body{
  header img{
    margin: auto;
 }
+#img2 {
+    display: none;
+}
+#img6{
+    display: none;
+}
 .logo2{
     display: none;
 }
@@ -61,9 +67,11 @@ p{
 }
 img {
     margin: 32px;
+
 }
 .card{
     position: relative;
+    text-align: center;
 }
  h2{
    
@@ -81,8 +89,8 @@ img {
 }
 .card .one{ 
     position: absolute;
-    left: 230px;
-    bottom: 230px;
+    left: 200px;
+    bottom: 210px;
     width: 112px;
    
    
@@ -91,27 +99,33 @@ img {
 }
 .card .two{
     position: absolute;
-    left: 230px;
-    bottom:430px;
+    left: 200px;
+    bottom:410px;
     width:112px;
 }
 .card .thre{
     position: absolute;
-    left: 230px;
-    bottom:199px;
+    left: 200px;
+    bottom:210px;
     width:112px;
 }
 .card .for{
     position: absolute;
-    left: 230px;
-    bottom:430px;
+    left: 200px;
+    bottom:410px;
     width:112px;
     
 }
 
   @media (min-width:930px){
+
+    body{
+        width: 1280px;
+        height: 720px;
+    }
    
    .page{
+    box-sizing: border-box;
     background-image: url(img/Rectangle\ 10\ \(1\).png);
     margin: 0;
     width: 377px;
@@ -148,6 +162,9 @@ img {
    display: none;
 
    }
+   h2{
+    display: none;
+   }
    .lore2{
     display: block;
     color: #FFFFFF;
@@ -157,28 +174,83 @@ img {
     font-size: 24px;
     line-height: 20px;
    }
-   main.card{
-    grid-template-areas: "A B"
-     "C D";
+   #img2{
+    display: block;
    }
-   main .container:nth-child(1){
-    grid-area: A;
+   #img6{
+    display: block;
+   
    }
-   main .container:nth-child(2){
-    grid-area: B;
-   }
-   main .container:nth-child(3){
-    grid-area: C;
-   }
-   main .container:nth-child(4){
-    grid-area: D;
-   }
+   .container{
+    width:auto;
+    height: auto;
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "a  b c ";
 
    
- }
-  
+   
+}
+.card:nth-child(3){
+    grid-area: a;
+    position: absolute;
+    
+    width: 220px;
+    height: 150px;
+    left: 727px;
+    top: 446px;
+   
+}
+.card:nth-child(2){
+    grid-area: b;
+    position: absolute;
+    top: 44px;
+    left: 727px;
+}
+.card:nth-child(1){
+    grid-area: c;
+    position: absolute;
+    left: 390px;
+    top:24px;
+    
+}
+.card:nth-child(4){
+    grid-area: d;
+    
+    position: absolute;
+    top:290px;
+    left: 390px;
+    
+}
+.card:nth-child(5){
+    grid-area: e;
+    
+    position: absolute;
+    top: 246px;
+    left: 979px;
+    
+}.card:nth-child(6){
+    grid-area: f;
+    position: absolute;
+    left: 979px;
+    top: 64px;
+}
+footer{
+    position: absolute;
+    top: 646px;
+    left: 641px;
 
+    font-family: open sans;
  
+    font-size: 14px;
+
+    color: #4A4E69;
+   
+}
+
+ }
 
 
  
